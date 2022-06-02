@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hidden { display: none; }
+
+/*base*/
+
+body, p, ol, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+body { font: normal 12px "NanumSquare", serif;  }
+ul { list-style: none; }
+img { vertical-align: top; border: 0; }
+a { text-decoration: none; }
+
+::selection { background-color: #d33650; color: #fff; }
+
+
+
+#wrap { width: 100%; overflow: hidden; }
+
+/*header*/
+
+#header { width: 100%; height: 50px; }
+.ic_menu { position: absolute; top: 17px; left: 10px; float: left; cursor:pointer;}
+
+/*로고*/
+#header h1{ text-align: center; }
+#header h1 img { width: 80px; height: 40px; margin-top:5px; }
+#header .mymenu { position: absolute; top: 17px; right: 10px; cursor:pointer;}
+
+	.left_menu { width: 280px; height: 100%; background: #3d4657; z-index: 12; padding-top: 50px; box-sizing: border-box; position: fixed; top: 0; left: -280px; }
+	.left_menu .gnb>li { line-height: 1.8; }
+	.left_menu .gnb>li>a{ color: #fff; display: block; border-bottom: 1px solid rgba(0,0,0,0.1); line-height: 2.5; font-size: 14px; padding-left: 20px; box-sizing: border-box; }
+	.left_menu .gnb>li:hover>a { background: #c41230; color: #fff; }
+
+.sub { display: none; }
+	.sub li a { display: block; background: #3d4657; color: #fff; padding-left: 25px; box-sizing: border-box; height: 30px; line-height: 30px; }
+	.sub li a:hover { background: #a9a9a9; }
+	
+	.left_menu .close { position: absolute; top: 7px; right: 10px; cursor: pointer; }
+
+
+	.black_back { width: 100%; height: 100%; position: fixed; top: 0; left: 0; background: rgba(0,0,0,0.5); z-index: 11; display: none; }
+	
+	
+.right_menu { width: 280px; height: 100%; background: #a9a9a9; z-index: 12; padding-top: 50px; box-sizing: border-box; position: fixed; top: 0; right: -280px; }
+	.right_menu .gnb2>li { line-height: 1.8; }
+	.right_menu .gnb2>li>a{ color: #fff; display: block; border-bottom: 1px solid rgba(0,0,0,0.1); line-height: 2.5; font-size: 14px; padding-left: 20px; box-sizing: border-box; }
+	.right_menu .gnb2>li:hover>a { background: #c41230; color: #fff; }
+
+	.right_menu .close2 { position: absolute; top: 7px; right: 10px; cursor: pointer; }
+
+
+	.black_back2 { width: 100%; height: 100%; position: fixed; top: 0; left: 0; background: rgba(0,0,0,0.5); z-index: 11; display: none; }
+	
+
+
+/*footer*/
+#footer { width: 100%; overflow:hidden;background: #1f1f1f; color: #999; font-size: 14px; padding: 30px 15px 30px 10px; box-sizing: border-box; position: relative; }
+#footer>div{ float: left; }
+#footer .foot1{width:15%;text-align:center; }
+#footer .foot1 img{width:55px;}
+#footer .foot2{width:85%;text-align: center; }
+#footer .foot2_txt1 { font-size:11px; line-height: 2;}
+#footer .foot2_txt1 a { margin-top: 25px; color: #999; font-size:11px; transition: color 0.5s; }
+#footer .foot2_txt1 a:hover { color: #eee; }
+
+.top { position: fixed; bottom: 30px; right: 30px; z-index: 2; display: none; }
+
+
+/*contents 공동으로 들어가는 것들*/
+#contents .wrap { margin: 0 auto; width: 100%; overflow: hidden; padding-bottom: 30px; box-sizing: border-box; border-top: 1px solid #f0f0f0; text-align: center; }
+
+#contents .wrap .contwrap { margin: 0 auto; width: 100%; overflow: hidden; }
+
+#contents .wrap .contwrap .list ul li { float: left; margin-bottom: 32px; }
+
+.list { margin-top: 34px; }
+#contents .wrap .contwrap .list ul li a { color: #000; font-size: 13px; margin-right: 10px; transition: color 0.5s; }
+#contents .wrap .contwrap .list ul li a:hover { color: #c41320; }
+#contents .wrap .contwrap .list ul li:first-child { margin-left: 20px; }
+#contents .wrap .contwrap .line01 { margin-top: 60px; background: #f0f0f0; width: 100%; height: 1px; }
+

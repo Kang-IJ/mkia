@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*contents*/
+
+
+#contents .wrap { margin: 0 auto; width: 100%; overflow: hidden; border-top: 1px solid #f0f0f0; text-align: center; }
+#contents .wrap .contwrap { margin: 0 auto; width: 100%; overflow: hidden; text-align: center; }
+
+#contents .wrap .contwrap .list { float: left; margin: 34px 0 32px 0; color: #000; font-size: 13px; margin-left: 40px; }
+		
+#contents .wrap .contwrap .test { border-top: 1px solid #e3e6e8; overflow: hidden; text-align: center; color: #000; width: 100%; margin-bottom: 50px; padding: 50px 0 50px 0; }
+	#contents .wrap .contwrap .test .txt1 { font-size: 13px; }
+	#contents .wrap .contwrap .line { width: 100%; height: 1px; background: #000; }
+
+	/*여기까지가 공통적으로 필요한것들 */
+	
+	.testwrap { margin: 0 auto; width: 100%; overflow: hidden; text-align: center; }
+
+	#contents .wrap .contwrap .test .testwrap img { width: 45%; margin: 40px auto; }
+
+	.cus { float: left; margin-left: 20px; }
+	.ncus { float: right; margin-right: 20px; }
+	.txt2 { width: 100%; text-align: left; color: #888; font-size: 10px; margin-top: 30px; padding: 0 20px; box-sizing: border-box; }
+
+#contents .wrap .contwrap .cusbtn { padding-top: 9px; box-sizing: border-box; font-size: 13px; text-align: center; color: #fff; display: inline-block; width: 120px; height: 35px; background: #c41230; transition: all 0.5s; }
+#contents .wrap .contwrap .cusbtn:hover { background: #6b0a1a; }
+
+#contents .wrap .contwrap .ncusbtn { padding-top: 9px; box-sizing: border-box; font-size: 13px; text-align: center; color: #fff; display: inline-block; width: 120px; height: 35px; background: #c41230; transition: all 0.5s; }
+#contents .wrap .contwrap .ncusbtn:hover { background: #6b0a1a; }
+
+
+

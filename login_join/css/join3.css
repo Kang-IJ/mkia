@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*contents*/
+
+
+#contents .wrap { margin: 0 auto; width: 100%; overflow: hidden; border-top: 1px solid #f0f0f0; text-align: center; }
+	#contents .wrap .joinbox { margin: 50px auto 70px; width: 100%; overflow: hidden; }
+	#contents .wrap .joinbox h2{ font-size: 20px; font-weight: normal; }
+	
+	#contents .wrap .joinbox .iconbox { margin: 30px auto 25px; width: 90%; height: 128px; }
+	#contents .wrap .joinbox .icons li, #contents .wrap .joinbox .texts li { float: left; }
+	
+	#contents .wrap .joinbox .iconbox ul { width: 100%; }
+
+	#contents .wrap .joinbox .icons { margin: 0 0 15px 0; }
+
+		#contents .wrap .joinbox .icons .circles { width: 100%; }
+			#contents .wrap .joinbox .icons li { width: 18%; }
+	#contents .wrap .joinbox .icons li:first-child { }
+	#contents .wrap .joinbox .icons li:nth-child(2n) { width: 8px; margin: 30px 10px 0; }
+	
+
+	#contents .wrap .joinbox li p { width: 80px; font-size: 8px; color: #ccc; margin: 15px 0 0 -10px; text-align: center; }
+	#contents .wrap .joinbox li:nth-child(5) p { color: #000; }
+	
+	#contents .wrap .joinbox .line { width: 100%; height: 1px; background: #000; }
+
+	#contents .wrap .joinbox h3 { margin: 25px; font-size: 15px; font-weight: normal; float: left; }
+	
+	
+	/*여기까지가 공통적으로 필요한것들 */
+	
+	
+	#contents .wrap .joinbox .infobox { width: 800px; }
+	#contents .wrap .joinbox .infobox h4 { margin-top: 87px; margin-bottom: 85px; font-size: 15px; font-weight: normal; }
+	
+	
+	#contents .txt1 { margin-top: 60px 20px 0 0; float: right; }
+span.star { color: #c41230; font-weight: bold; font-size: 15px; position: relative; top: 4px; }
+
+table { font-size: 12px; }
+#contents .t1 { width: 100%; border-collapse: collapse; }
+th, td { border: none; text-align: left; border-top: 1px solid #e3e6e8; border-bottom: 1px solid #e3e6e8; }
+th, td { padding: 7px; box-sizing: border-box; }
+th { width: 150px; }
+
+
+.pwcaution { font-size: 12px; color: #aaa; }
+
+#contents .s1 { width: 70px; height: 30px; border: 1px solid #e3e6e8; padding: 3px 4px 2px; box-sizing: border-box; font-size: 12px; margin-right: 10px; }
+#contents .s-1 { width: 240px; height: 30px; border: 1px solid #e3e6e8; padding: 3px 4px 2px; box-sizing: border-box; font-size: 12px; margin-right: 10px; }
+
+/*중복검사 버튼*/
+#contents .first-btn { width: 60px; height: 24px; background: #aeaeae; color: #fff; font-size: 12px; border: none; cursor: pointer; margin: 0 5px 0 -5px; }
+
+
+#contents .nth5 p { line-height: 2.5; }
+#contents .nth5 label { width: 80px; display: inline-block; }
+#contents .nth5 label.nth5-txt1 { padding-left: 11px; box-sizing: border-box; }
+#contents .sel_s1 { width: 70px; height: 24px; border: 1px solid #e3e6e8; box-sizing: border-box; font-size: 12px; }
+#contents .s2 { width: 64px; height: 24px; border: 1px solid #e3e6e8; box-sizing: border-box; }
+#contents .s3 { width: 124px; height: 24px; border: 1px solid #e3e6e8; box-sizing: border-box; }
+
+
+.last_tr input { position: relative; top: 2px; }
+.last_tr .last-txt1 { margin: 0 30px; }
+
+
+#contents .wrap .joinbox .cellbtn { margin: 40px 0 10px; box-sizing: border-box; font-size: 13px; text-align: center; color: #fff; display: inline-block; width: 150px; height: 37px; line-height: 37px; background: #c41230; transition: all 0.5s; }
+#contents .wrap .joinbox .cellbtn:hover { background: #6b0a1a; }
+
+

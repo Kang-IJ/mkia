@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*contents*/
+
+
+#contents .wrap { margin: 0 auto; width: 100%; overflow: hidden; border-top: 1px solid #f0f0f0; text-align: center; }
+#contents .wrap .contwrap { margin: 0 auto; width: 100%; overflow: hidden; text-align: center; }
+
+#contents .wrap .contwrap .list { float: left; margin: 34px 0 32px 0; color: #000; font-size: 13px; margin-left: 40px; }
+		
+	#contents .wrap .verifybox { width: 90%; margin: 20px auto 50px; }
+	#contents .wrap .verifybox h4 { margin-top: 50px; margin-bottom: 85px; font-size: 13px; font-weight: normal; }
+	#contents .wrap .contwrap .line { width: 100%; height: 1px; background: #e3e6e8; clear: both;}
+	.verwrap { margin: 0 auto; width: 100%; height: 177px; }
+	.cellbox { width: 120px; height: 171px; float: left; margin-left: 20px; }
+	.ipinbox { margin-top: 14px; width: 120px; height: 165px; float: right; margin-right: 20px; }
+
+	.verifybox_txt { font-size: 10px; overflow: hidden; width: 100%; color: #aaa; margin-top: 50px; }
+
+.cellbtn { margin: 40px 0 10px; box-sizing: border-box; font-size: 13px; text-align: center; color: #fff; display: inline-block; width: 120px; height: 35px; line-height: 35px; background: #c41230; transition: all 0.5s; }
+.cellbtn:hover {  background: #6b0a1a; }
+
+.ipinbtn { margin: 40px 0 10px; box-sizing: border-box; font-size: 13px; text-align: center; color: #fff; display: inline-block; width: 120px; height: 35px; line-height: 35px; background: #c41230; transition: all 0.5s; }
+.ipinbtn:hover { background: #6b0a1a; }

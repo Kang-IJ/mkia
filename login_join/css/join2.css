@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*contents*/
+
+
+#contents .wrap { margin: 0 auto; width: 100%; overflow: hidden; border-top: 1px solid #f0f0f0; text-align: center; }
+	#contents .wrap .joinbox { margin: 50px auto 70px; width: 100%; overflow: hidden; }
+	#contents .wrap .joinbox h2{ font-size: 20px; font-weight: normal; }
+	
+	#contents .wrap .joinbox .iconbox { margin: 30px auto 25px; width: 90%; height: 128px; }
+	#contents .wrap .joinbox .icons li, #contents .wrap .joinbox .texts li { float: left; }
+	
+	#contents .wrap .joinbox .iconbox ul { width: 100%; }
+
+	#contents .wrap .joinbox .icons { margin: 0 0 15px 0; }
+
+		#contents .wrap .joinbox .icons .circles { width: 100%; }
+			#contents .wrap .joinbox .icons li { width: 18%; }
+	#contents .wrap .joinbox .icons li:first-child { }
+	#contents .wrap .joinbox .icons li:nth-child(2n) { width: 8px; margin: 30px 10px 0; }
+	
+
+	#contents .wrap .joinbox li p { width: 80px; font-size: 8px; color: #ccc; margin: 15px 0 0 -10px; text-align: center; }
+	#contents .wrap .joinbox li:nth-child(3) p { color: #000; }
+	
+	#contents .wrap .joinbox .line { width: 100%; height: 1px; background: #000; }
+
+	#contents .wrap .joinbox h3 { margin: 25px; font-size: 15px; font-weight: normal; float: left; }
+	
+	/*여기까지가 공통적으로 필요한것들 */
+	
+	
+	#contents .wrap .joinbox .verifybox { width: 100%; margin: 0 auto; }
+	#contents .wrap .joinbox .verifybox h4 { margin-top: 87px; margin-bottom: 85px; font-size: 15px; font-weight: normal; }
+	
+	.verwrap { margin: 0 auto; width: 100%; height: 177px; }
+	.cellbox { width: 50%; height: 171px; float: left; }
+	.ipinbox { margin: 14px auto 0;width: 50%; height: 165px; float: right; }
+
+	.verifybox_txt { overflow: hidden; width: 600px; color: #aaa; margin-top: 50px; }
+
+#contents .wrap .joinbox p { width: 100%; }
+#contents .wrap .joinbox .cellbtn { margin: 40px 0 10px; box-sizing: border-box; font-size: 12px; text-align: center; color: #fff; display: inline-block; width: 130px; height: 35px; line-height: 35px; background: #c41230; transition: all 0.5s; }
+#contents .wrap .joinbox .cellbtn:hover { background: #6b0a1a; }
+
+#contents .wrap .joinbox .ipinbtn { margin: 40px 0 10px; box-sizing: border-box; font-size: 12px; text-align: center; color: #fff; display: inline-block; width: 130px; height: 35px; line-height: 35px; background: #c41230; transition: all 0.5s; }
+#contents .wrap .joinbox .ipinbtn:hover { background: #6b0a1a; }
+
+
+

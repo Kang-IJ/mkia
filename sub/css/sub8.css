@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*공동으로 들어가는 것들*/
+#contents .wrap { margin: 0 auto; width: 100%; overflow: hidden; border-top: 1px solid #f0f0f0; text-align: center; }
+#contents .wrap .contwrap { margin: 0 auto; width: 100%; text-align: center; }
+
+#contents .wrap .contwrap ul li { float: left; margin-bottom: 32px; position: relative; transition: all 0.3s; }
+
+
+
+
+#contents .wrap .contwrap ul li a { color: #000; }
+
+.list { margin: 34px 0 -3px 0; }
+
+#contents .wrap .contwrap .list ul li a { font-size: 13px; margin-right: 20px; transition: color 0.5s; }
+#contents .wrap .contwrap .list ul li a:hover { color: #c41320; }
+#contents .wrap .contwrap .list ul li:first-child { margin-left: 20px; }
+
+.line1 { width: 100%; height: 1px; background: #e3e6e8; box-sizing: border-box; }
+
+#contents .wrap .contwrap h2 { text-align: left; font-size: 20px; font-weight: bold; line-height:1; }
+
+.des { text-align: center; font-weight: bold; font-size: 16px; margin-bottom: 30px; }
+.des .t1 { font-size: 15px; margin-top: 20px; display: block; }
+.des .t2 { font-size: 10px; display: block; }
+
+.img1 { margin: 0 auto; width: 100%; transition: all 0.5s; }
+
+.sedan, .eco, .rv { padding-left: 10px; box-sizing: border-box; }
+
+.sedan ul li, .eco ul li, .rv ul li { width: 45%; height: 250px; }
+.sedan ul li:nth-child(2n), .eco ul li:nth-child(2n), .rv ul li:nth-child(2n) { margin-left: 5% }
+
+#contents .wrap .contwrap .title { margin: 20px 0 50px 20px; }
+
+#contents .wrap .contwrap>div { float: left; }
+
+#contents .wrap .contwrap ul li:hover .img1 { opacity: 0.6; transform: scale(1.05); }
+
+
+#contents .wrap .contwrap ul li .box { position: absolute; top: 150px; width: 100%; height: 50px; background: rgba(0,0,0,0.7); transition: all 0.3s; text-align: center; }
+#contents .wrap .contwrap ul li .box .brochure, .pricetag { transition: all 0.3s; }
+#contents .wrap .contwrap ul li .box p { font-size: 7px; float: left; transition: all 0.2s; }
+#contents .wrap .contwrap ul li .box p a { color: #fff; }
+#contents .wrap .contwrap ul li .box p img{ margin: 7px 0 5px 0; width: 30%; }
+
+#contents .wrap .contwrap ul li .box .cat:hover, .pri:hover { transform: scale(1.08); }
